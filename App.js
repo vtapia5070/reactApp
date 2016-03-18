@@ -15,11 +15,14 @@ App.propTypes = {
   cat: React.PropTypes.number.isRequired
 }
 
+App.defaultProps = {
+  txt: "this is the default txt"
+}
 /* Uncomment below for stateless component */
 // const App = () => <h1>I'm a stateless component!</h1>
 
 ReactDOM.render(
-  <App cat={5} txt="this is the props value" />,
+  <App cat={5} />,
   document.getElementById('app')
 );
 
