@@ -10,11 +10,16 @@ class App extends React.Component {
   }
 }
 
+App.propTypes = {
+  txt: React.PropTypes.string,
+  cat: React.PropTypes.number.isRequired
+}
+
 /* Uncomment below for stateless component */
 // const App = () => <h1>I'm a stateless component!</h1>
 
 ReactDOM.render(
-  <App txt="this is the props value" />,
+  <App cat={5} txt="this is the props value" />,
   document.getElementById('app')
 );
 
