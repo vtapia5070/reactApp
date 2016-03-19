@@ -22,3 +22,7 @@ A repo that steps through multiple React Fundamentals based on [Joe Maddalone's]
   Includes demo on component lifecycle through mounting and unmounting.
   See the following file(s) on the [mountingDemo branch](https://github.com/vtapia5070/reactApp/tree/mountingDemo):
   - [App.js](https://github.com/vtapia5070/reactApp/blob/mountingDemo/App.js)
+- _Lesson 11_:
+  Includes demo on how to manipulate the component lifecycle to do things (like update a number based on the current state, or redure multiples of a current state bases on the current props). 
+  See the following file on the [utilizeMountingDemo branch](https://github.com/vtapia5070/reactApp/tree/utilizeMountingDemo):
+    - [App.js](https://github.com/vtapia5070/reactApp/blob/utilizeMountingDemo/App.js)
