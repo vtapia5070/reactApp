@@ -17,7 +17,11 @@ class App extends React.Component {
 
   render(){
     console.log("rendering!");
-    return <button onClick={this.update}>{this.state.val * this.state.m}</button>
+    return (
+      <button onClick={this.update}>
+        {this.state.val * this.state.m}
+      </button>
+    )
   }
   componentDidMount() {
     console.log(ReactDOM.findDOMNode(this));
